@@ -1,0 +1,43 @@
+name: detective_2089
+description: A cyber-detective game set in 2089.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.18.0
+  cloud_firestore: ^4.15.0
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.4
+  http: ^1.2.0
+  flutter_dotenv: ^5.1.0
+  cupertino_icons: ^1.0.6
+  video_player: ^2.8.6          # ← NEW
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  riverpod_generator: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    # ── Background images (one per level + companion scene image) ──
+    - assets/images/level1_bg.png
+    - assets/images/level1_scene.png
+    - assets/images/level2_bg.png
+    - assets/images/level2_scene.png
+    - assets/images/level3_bg.png
+    - assets/images/level3_scene.png
+    # ── Intro videos (one per level) ──────────────────────────────
+    - assets/videos/level1_intro.mp4
+    - assets/videos/level2_intro.mp4
+    - assets/videos/level3_intro.mp4
