@@ -14,17 +14,7 @@
 
 ---
 
-## 📺 Demo
 
-<div align="center">
-
-[![Detective 2089 Demo](https://youtu.be/3QkMRyUsN7o)
-
-
-
-</div>
-
----
 
 ## 📸 Screenshots
 
@@ -217,3 +207,16 @@ This project was built as a Flutter assignment. Required features:
 *Good luck, operative. NEXUS won't know what hit it.* 🕵️
 
 </div>
+
+---
+## 📺 Demo
+
+<div align="center">
+
+[![Detective 2089 Demo](https://img.youtube.com/vi/3QkMRyUsN7o/maxresdefault.jpg)](https://youtu.be/3QkMRyUsN7o)
+
+
+
+</div>
+
+---
