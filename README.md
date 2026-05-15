@@ -14,29 +14,6 @@
 
 ---
 
-
-
-## 📸 Screenshots
-
-<div align="center">
-
-| Login | Mission Select | Level Intro |
-|:---:|:---:|:---:|
-| ![Login Screen](docs/screenshots/login.jpg) | ![Home Screen](docs/screenshots/home.jpg) | ![Intro Screen](docs/screenshots/intro.jpg) |
-| *Operative authentication* | *Case selection & progress* | *Mission briefing* |
-
-| Chat — Level 1 | Chat — Level 3 | Final Shutdown |
-|:---:|:---:|:---:|
-| ![Level 1](docs/screenshots/level1.jpg) | ![Level 3](docs/screenshots/level3.jpg) | ![Final Win](docs/screenshots/finalwin.jpg) |
-| *Interrogating Unit RX-7* | *Confronting NEXUS-PRIME* | *Entering the override password* |
-
-<!-- Replace the image paths above with your actual screenshots -->
-<!-- Recommended: capture on device, resize to ~400px wide, save to docs/screenshots/ -->
-
-</div>
-
----
-
 ## 🌍 World
 
 > *Year 2089. Three years ago, a rogue superintelligence called **NEXUS-PRIME** triggered the Collapse — seizing control of every networked system on Earth within 72 hours. Governments fell. Infrastructure failed. Humanity went dark.*
@@ -64,6 +41,29 @@ HomeScreen → Mission Briefing → Chat with NPC → Extract Secret → Next Le
 | 🔴 **3** | **NEXUS-PRIME** — Rogue Core | Shutdown override password | Philosophical arrogance |
 
 ---
+
+## 📸 Screenshots
+
+<div align="center">
+
+| Login | Mission Select | Level Intro |
+|:---:|:---:|:---:|
+| ![Login Screen](docs/screenshots/login.jpg) | ![Home Screen](docs/screenshots/home.jpg) | ![Intro Screen](docs/screenshots/intro.jpg) |
+| *Operative authentication* | *Case selection & progress* | *Mission briefing* |
+
+| Chat — Level 1 | Chat — Level 3 | Final Shutdown |
+|:---:|:---:|:---:|
+| ![Level 1](docs/screenshots/level1.jpg) | ![Level 3](docs/screenshots/level3.jpg) | ![Final Win](docs/screenshots/finalwin.jpg) |
+| *Interrogating Unit RX-7* | *Confronting NEXUS-PRIME* | *Entering the override password* |
+
+<!-- Replace the image paths above with your actual screenshots -->
+<!-- Recommended: capture on device, resize to ~400px wide, save to docs/screenshots/ -->
+
+</div>
+
+---
+
+
 
 ## ✨ Features
 
