@@ -19,6 +19,7 @@ class DatabaseService {
       }
     } catch (e) {
       // If anything goes wrong, return fresh progress
+      print('❌ Load progress failed: $e');
     }
     return UserProgress.fresh();
   }
@@ -26,7 +27,16 @@ class DatabaseService {
   // Save the player's progress to Firestore.
   // merge: true means we only update the fields we send (safe).
   Future<void> saveProgress(String uid, UserProgress progress) async {
-    await _progressRef(uid).set(progress.toMap(), SetOptions(merge: true));
+    print('💾 Saving to Firestore — uid: $uid, data: ${progress.toMap()}');
+    try {
+      await _progressRef(uid).set(
+        progress.toMap(),
+        SetOptions(merge: true),
+      );
+      print('✅ Firestore save successful');
+    } catch (e) {
+      print('❌ Firestore save failed: $e');
+    }
   }
 
   // Record a level completion with extra details
