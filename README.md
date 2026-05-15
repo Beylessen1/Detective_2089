@@ -18,7 +18,7 @@
 
 <div align="center">
 
-[![Detective 2089 Demo](https://drive.google.com/file/d/1ulBHyJY407JytSlFKHLnY1R_qHcU99xc/view?usp=drive_link)
+[![Detective 2089 Demo](https://youtu.be/3QkMRyUsN7o)
 
 
 
